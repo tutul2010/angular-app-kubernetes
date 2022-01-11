@@ -7,9 +7,4 @@ trigger:
 
 resources:
 - repo: self
-- task: Docker@2
-  inputs:
-    containerRegistry: 'acrstorage07'
-    repository: 'angularapp'
-    command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+
